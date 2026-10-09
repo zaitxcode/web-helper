@@ -1,6 +1,6 @@
-import { getNativeBridge, isAndroidBridgeAvailable } from "./bridge";
+import { getNativeBridge, isAndroidBridgeAvailable } from "./bridge.js";
 export { getNativeBridge, isAndroidBridgeAvailable };
-export type { NativeAndroidHelperBridge } from "./bridge";
+export type { NativeAndroidHelperBridge } from "./bridge.js";
 export declare const Network: {
     isConnected(): boolean;
     activeTransport(): string;

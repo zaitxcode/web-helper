@@ -1,4 +1,4 @@
-import { getNativeBridge, isAndroidBridgeAvailable } from "./bridge";
+import { getNativeBridge, isAndroidBridgeAvailable } from "./bridge.js";
 export { getNativeBridge, isAndroidBridgeAvailable };
 export const Network = {
     isConnected() {
